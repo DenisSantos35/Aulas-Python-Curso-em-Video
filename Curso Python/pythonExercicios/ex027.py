@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome: ')).upper().strip()
+primeiro = nome.split()
+cont = len(primeiro)
+print('Muito prazer em te conhecer {}'.format(primeiro[0]))
+print('O primeiro nome é: {}'.format(primeiro[0]))
+print('O ultimo nome é: {}'.format(primeiro[cont - 1]))
+print('ultimo a {}'.format(nome.rfind('A')))
